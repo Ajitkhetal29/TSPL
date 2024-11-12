@@ -1324,4 +1324,47 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
+#mission {
+  /* max-width: 800px; */
+  margin: 20px auto;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+#mission h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#mission p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+#mission p:last-child {
+  margin-bottom: 0;
+}
+
+#mission p::first-letter{
+font-size: 30px;
+color: salmon;
+}
+
+#mission h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #4CAF50;
+  margin: 8px auto 20px;
+  border-radius: 2px;
+}
+
+
 /* career page end */
