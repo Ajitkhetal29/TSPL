@@ -25,16 +25,10 @@ function changeLargeImage(e){
 
 }
 
-function setAnchortag() {
-
-  var ValueToSet = document.getElementById("product").value;
-  console.log(ValueToSet)
-  document.getElementById("mainAnchor").href = ValueToSet
-
-
-
+function handleSelect(elm) {
+  // Redirects the user to the selected value
+  window.location = elm.value;
 }
-
 
 
 // filter 
