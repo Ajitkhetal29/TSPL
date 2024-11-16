@@ -9,7 +9,7 @@ const navbar = document.querySelector("nav");
 if (backtotop) {
   const toggleBacktotop = () => {
     if (window.scrollY > 100) {
-      console.log(true); // Debugging line
+      // console.log(true); // Debugging line
       backtotop.classList.add("active");
       navbar.classList.add("fixed-top");
     } else {
